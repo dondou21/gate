@@ -602,8 +602,8 @@
   .col-auto {
     grid-column: auto;
   }
-  .col-span-2 {
-    grid-column: span 2 / span 2;
+  .col-span-3 {
+    grid-column: span 3 / span 3;
   }
   .col-span-full {
     grid-column: 1 / -1;
@@ -616,6 +616,9 @@
   }
   .col-start-4 {
     grid-column-start: 4;
+  }
+  .col-start-5 {
+    grid-column-start: 5;
   }
   .col-start-auto {
     grid-column-start: auto;
@@ -1711,12 +1714,6 @@
   }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
-  }
-  .pb-10 {
-    padding-bottom: calc(var(--spacing) * 10);
-  }
-  .pb-16 {
-    padding-bottom: calc(var(--spacing) * 16);
   }
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
