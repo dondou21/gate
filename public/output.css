@@ -884,6 +884,12 @@
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
+  .h-\[250px\] {
+    height: 250px;
+  }
+  .h-\[450px\] {
+    height: 450px;
+  }
   .h-\[600px\] {
     height: 600px;
   }
@@ -1340,8 +1346,8 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
@@ -1596,9 +1602,6 @@
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
   }
-  .bg-\[url\] {
-    background-color: url;
-  }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
@@ -1638,23 +1641,8 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\)\] {
-    background-image: url();
-  }
-  .bg-\[url\(\.\/\)\] {
-    background-image: url(./);
-  }
-  .bg-\[url\(\.\/images\)\] {
-    background-image: url(./images);
-  }
-  .bg-\[url\(\.\/images\/\)\] {
-    background-image: url(./images/);
-  }
   .bg-\[url\(\.\/images\/avian-bird-flu\.jpg\)\] {
     background-image: url(./images/avian-bird-flu.jpg);
-  }
-  .bg-\[url\(\.\/images\/blue-pattern-bg\)\] {
-    background-image: url(./images/blue-pattern-bg);
   }
   .bg-\[url\(\.\/images\/blue-pattern-bg\.png\)\] {
     background-image: url(./images/blue-pattern-bg.png);
