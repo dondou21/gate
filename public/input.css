@@ -3,3 +3,11 @@
 .nav-menu {
     @apply text-white ;
 }
+
+.new-tite {
+    @apply text-[12px] text-red-800 text-center font-semibold py-6 hover:underline 
+}
+
+.new-paragraph {
+    @apply text-[12px] text-blue-950 font-serif  text-center hover:underline 
+ }
