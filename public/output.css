@@ -734,6 +734,9 @@
   .-mt-10 {
     margin-top: calc(var(--spacing) * -10);
   }
+  .-mt-32 {
+    margin-top: calc(var(--spacing) * -32);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -881,6 +884,9 @@
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
+  .h-\[600px\] {
+    height: 600px;
+  }
   .h-\[700px\] {
     height: 700px;
   }
@@ -898,6 +904,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1331,11 +1340,17 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-x-8 {
     column-gap: calc(var(--spacing) * 8);
@@ -1581,6 +1596,9 @@
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
   }
+  .bg-\[url\] {
+    background-color: url;
+  }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
@@ -1620,8 +1638,26 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\/\)\] {
+    background-image: url(./);
+  }
+  .bg-\[url\(\.\/images\)\] {
+    background-image: url(./images);
+  }
+  .bg-\[url\(\.\/images\/\)\] {
+    background-image: url(./images/);
+  }
   .bg-\[url\(\.\/images\/avian-bird-flu\.jpg\)\] {
     background-image: url(./images/avian-bird-flu.jpg);
+  }
+  .bg-\[url\(\.\/images\/blue-pattern-bg\)\] {
+    background-image: url(./images/blue-pattern-bg);
+  }
+  .bg-\[url\(\.\/images\/blue-pattern-bg\.png\)\] {
+    background-image: url(./images/blue-pattern-bg.png);
   }
   .bg-\[url\(\.\/images\/penn-center-innovation\.jpg\)\] {
     background-image: url(./images/penn-center-innovation.jpg);
@@ -1806,6 +1842,9 @@
   }
   .pt-14 {
     padding-top: calc(var(--spacing) * 14);
+  }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
   }
   .pr-6 {
     padding-right: calc(var(--spacing) * 6);
@@ -1997,6 +2036,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-blue-900 {
+    color: var(--color-blue-900);
   }
   .text-blue-950 {
     color: var(--color-blue-950);
