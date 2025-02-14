@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.nav-menu {
+    @apply text-white ;
+}
